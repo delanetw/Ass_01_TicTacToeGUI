@@ -261,6 +261,7 @@ public class TicTacToeFrame extends JFrame
                                 BLBtn.setEnabled(false);
                                 BCBtn.setEnabled(false);
                                 BRBtn.setEnabled(false);
+                                JOptionPane.showMessageDialog(null, "Press 'New Game' to play again");
                             }
                             else if (isWin("O"))
                             {
@@ -274,6 +275,7 @@ public class TicTacToeFrame extends JFrame
                                 BLBtn.setEnabled(false);
                                 BCBtn.setEnabled(false);
                                 BRBtn.setEnabled(false);
+                                JOptionPane.showMessageDialog(null, "Press 'New Game' to play again");
                             }
                             else if (isTie())
                             {
@@ -287,6 +289,7 @@ public class TicTacToeFrame extends JFrame
                                 BLBtn.setEnabled(false);
                                 BCBtn.setEnabled(false);
                                 BRBtn.setEnabled(false);
+                                JOptionPane.showMessageDialog(null, "Press 'New Game' to play again");
                             }
                         }
                     }
